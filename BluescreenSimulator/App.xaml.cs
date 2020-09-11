@@ -35,6 +35,7 @@ namespace BluescreenSimulator
             Settings.Default.PropertyChanged +=
                 (_, __) => SetTheme();
             SetTheme();
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("de");
             DispatcherUnhandledException += (o, eventArgs) =>
             {
                 var m = ShowErrorMessage(eventArgs.Exception);

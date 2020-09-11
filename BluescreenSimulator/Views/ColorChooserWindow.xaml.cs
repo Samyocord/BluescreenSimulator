@@ -24,7 +24,7 @@ namespace BluescreenSimulator.Views
             DataContext = _data;
             InitializeComponent();
         }
-        private class ColorWindowData : PropertyChangedObject
+        public class ColorWindowData : PropertyChangedObject
         {
             public ColorWindowData()
             {

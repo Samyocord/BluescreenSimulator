@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="action_to_continue" xml:space="preserve">
+    <value>Action to continue</value>
+  </data>
+  <data name="action_to_continue_text" xml:space="preserve">
+    <value>Press any key to continue</value>
+  </data>
+  <data name="background_color" xml:space="preserve">
+    <value>Hintergrundfarbe</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="command_after_complete" xml:space="preserve">
+    <value>Befehl nach Fertigstellung</value>
+  </data>
+  <data name="delay" xml:space="preserve">
+    <value>Delay (in seconds)</value>
+  </data>
+  <data name="emoticon" xml:space="preserve">
+    <value>Emoticon</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="error_code" xml:space="preserve">
+    <value>Fehlercode</value>
+  </data>
+  <data name="error_code_text" xml:space="preserve">
+    <value>IRQL_NOT_LESS_OR_EQUAL</value>
+  </data>
+  <data name="error_text" xml:space="preserve">
+    <value>Error : 0E : 016F : BFF9B3D4</value>
+  </data>
+  <data name="exe_creator_command" xml:space="preserve">
+    <value>Genutzter Befehl:</value>
+  </data>
+  <data name="exe_creator_filename" xml:space="preserve">
+    <value>Dateiname:</value>
+  </data>
+  <data name="exe_creator_window_title" xml:space="preserve">
+    <value>EXE Generator</value>
+  </data>
+  <data name="foreground_color" xml:space="preserve">
+    <value>Vordergrundfarbe (Text)</value>
+  </data>
+  <data name="generate_exe_cmd" xml:space="preserve">
+    <value>EXE/Befehl generieren</value>
+  </data>
+  <data name="give_error" xml:space="preserve">
+    <value>Gib mir einen Fehler</value>
+  </data>
+  <data name="header" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="header_9x_text" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="header_text" xml:space="preserve">
+    <value>Auf dem PC ist ein Problem aufgetreten und Windows wurde heruntergefahren um weitere Fehler </value>
+  </data>
+  <data name="hide_qr" xml:space="preserve">
+    <value>QR Code verstecken</value>
+  </data>
+  <data name="information_l1" xml:space="preserve">
+    <value>Information (Zeile 1)</value>
+  </data>
+  <data name="information_l1_text" xml:space="preserve">
+    <value>An error has occurred. To continue:</value>
+  </data>
+  <data name="information_l2" xml:space="preserve">
+    <value>Information (Zeile 2)</value>
+  </data>
+  <data name="information_l2_text" xml:space="preserve">
+    <value>Press Enter to return to Windows, or</value>
+  </data>
+  <data name="instructions" xml:space="preserve">
+    <value>Anleitung</value>
+  </data>
+  <data name="instructions_dialog_mit" xml:space="preserve">
+    <value>MIT Lizenz</value>
+  </data>
+  <data name="instructions_dialog_project" xml:space="preserve">
+    <value>Projektseite</value>
+  </data>
+  <data name="instructions_dialog_t1" xml:space="preserve">
+    <value>Dieses Programm simuliert einen BSOD ohne irgendwelche Gefahren und Schäden an deinem PC.</value>
+  </data>
+  <data name="instructions_dialog_t10" xml:space="preserve">
+    <value>Diese Software verwendet die MIT-lizenzierte Bibliothek 'NDesk.Options'. |</value>
+  </data>
+  <data name="instructions_dialog_t11" xml:space="preserve">
+    <value>Diese Software verwendet die MIT-lizenzierte Bibliothek 'QRCoder'. |</value>
+  </data>
+  <data name="instructions_dialog_t2" xml:space="preserve">
+    <value>Anleitung:</value>
+  </data>
+  <data name="instructions_dialog_t3" xml:space="preserve">
+    <value>• Du kannst die ersten Felder (bis zu "Hintergrundfarbe") verwenden um den BSOD Text zu ändern.
+• In den "Hintergrund/Vordergrundfarbe" Feldern kannst du eine Hintergrund/Vordergrundfarbe festlegen. (RGB Format)
+• Mit "Verzögerung" kannst du den BSOD erst nach einer bestimmten Anzahl an Sekunden erscheinen lassen.
+• Der QR Code ist standardmäßig transparent. Du kannst ihn verstecken (Windows 8/8.1 Stil) oder den originalfarbenden verwenden.
+• Klicke auf "Gib mir einen Fehler" um den BSOD erscheinen zu lassen.
+• Um den BSOD-Bildschirm zu schließen, drücke Alt + F4 oder F7.
+• Wenn du eine Verzögerung eingestellt hast, kannst du diese abbrechen mit "BSOD abbrechen"
+• Wenn du die Felder leer lässt, werden diese auf die Standardeinstellungen gesetzt, welche einen Windows 9x/7/10 BSOD nachahmen.
+• Die Verzögerung steht standardmäßig auf 0 und der Befehl steht standardmäßig auf "Kein Befehl"
+• Der Fortschrittszähler wird automatisch größer.
+• Ein Befehlszeileninterface existiert. Führe BluescreenSimulator --help aus für mehr Informationen</value>
+  </data>
+  <data name="instructions_dialog_t4" xml:space="preserve">
+    <value>What is Unsafe Mode? How to enable it?</value>
+  </data>
+  <data name="instructions_dialog_t5" xml:space="preserve">
+    <value>Im unsicheren Modus kannst du einen CMD-Befehl einstellen, welcher nach den "fertigstellen" des BSODs ausgeführt wird. (z.B. ein Neustartbefehl)
+Weil dies möglicherweise gefährlich ist, musst du das Programm explizit mit dem Argument "--enable-unsafe" in der Kommandozeile starten, wie hier:
+BluescreenSimulator --enable-unsafe</value>
+  </data>
+  <data name="instructions_dialog_t6" xml:space="preserve">
+    <value>Bluescreen Simulator ist quelloffen!</value>
+  </data>
+  <data name="instructions_dialog_t7" xml:space="preserve">
+    <value>Besuche unser GitHub-Repository</value>
+  </data>
+  <data name="instructions_dialog_t8" xml:space="preserve">
+    <value>Es würde mich freuen wenn du meinen Kanal abonnierst</value>
+  </data>
+  <data name="instructions_dialog_t9" xml:space="preserve">
+    <value>FlyTech Videos – YouTube -Kanal</value>
+  </data>
+  <data name="instructions_text" xml:space="preserve">
+    <value>Press CTRL+ALT+DEL to restart your computer. If you do this, 
+you will lose any unsaved information in all open applications.</value>
+  </data>
+  <data name="main_text_l1" xml:space="preserve">
+    <value>Haupttext (Zeile 1)</value>
+  </data>
+  <data name="main_text_l1_text" xml:space="preserve">
+    <value>Auf dem PC ist ein Problem aufgetreten. Er muss neu</value>
+  </data>
+  <data name="main_text_l2" xml:space="preserve">
+    <value>Haupttext (Zeile 2)</value>
+  </data>
+  <data name="main_text_l2_text" xml:space="preserve">
+    <value>gestartet werden. Es werden einige Fehlerinformationen gesammelt, und dann wird ein Neustart ausgeführt.</value>
+  </data>
+  <data name="more_info" xml:space="preserve">
+    <value>Mehr Info</value>
+  </data>
+  <data name="more_info_text" xml:space="preserve">
+    <value>Weitere Informationen zu diesem Problem und mögliche Lösungen finden Sie unter: https://www.windows.com/stopcode</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="pick_color" xml:space="preserve">
+    <value>Farbe auswählen...</value>
+  </data>
+  <data name="progress_indicator" xml:space="preserve">
+    <value>Fortschrittsanzeige</value>
+  </data>
+  <data name="progress_indicator_text" xml:space="preserve">
+    <value>abgeschlossen</value>
+  </data>
+  <data name="rainbow" xml:space="preserve">
+    <value>Regenbogen</value>
+  </data>
+  <data name="reset" xml:space="preserve">
+    <value>Felder zurücksetzen</value>
+  </data>
+  <data name="starting_process" xml:space="preserve">
+    <value>Starting progress</value>
+  </data>
+  <data name="steps_header" xml:space="preserve">
+    <value>Steps header</value>
+  </data>
+  <data name="steps_header_text" xml:space="preserve">
+    <value>If this is the first time you've seen this error screen, restart your computer. if this screen appears again. follow these steps:</value>
+  </data>
+  <data name="steps_to_follow" xml:space="preserve">
+    <value>Steps to follow</value>
+  </data>
+  <data name="steps_to_follow_text" xml:space="preserve">
+    <value>Check to make sure any hardware or software is properly installed.
+If this is a new installation. ask your hardware or software manufacturer for any windows updates you might need.
+
+If problems continue, disable or remove any newly installed hardware or software. Disable BIOS memory options such as caching or shadowing. If you need to use Safe Mode to remove or disable components, restart your computer, press F8 to select Advanced Startup Options, and then select Safe Mode.</value>
+  </data>
+  <data name="stop_code" xml:space="preserve">
+    <value>Fehlercode</value>
+  </data>
+  <data name="stop_code_text" xml:space="preserve">
+    <value>Stillstandcode: DRIVER_IRQL_NOT_LESS_OR_EQUAL</value>
+  </data>
+  <data name="support_person" xml:space="preserve">
+    <value>Support Person</value>
+  </data>
+  <data name="support_person_text" xml:space="preserve">
+    <value>Halten Sie folgende Infos bereit, wenn Sie den Support anrufen:</value>
+  </data>
+  <data name="use_orig_blue_qr" xml:space="preserve">
+    <value>Originalen blauen QR Code verwenden</value>
+  </data>
+  <data name="windows_10_style" xml:space="preserve">
+    <value>Windows 10 Stil</value>
+  </data>
+  <data name="windows_7_style" xml:space="preserve">
+    <value>Windows 7 Stil</value>
+  </data>
+  <data name="windows_9x_style" xml:space="preserve">
+    <value>Windows 9x Stil</value>
+  </data>
+</root>
